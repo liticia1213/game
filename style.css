@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+
 }
 body{
+    
 height: 100dvh;
   font-family: 'Orbitron', sans-serif;
+      font-family: 'Orbitron', sans-serif;
+
 }
 .image-container{
     
@@ -101,4 +106,179 @@ cursor: pointer;
 .edit:hover{
     border-bottom: 2px solid white;
     cursor: pointer;
+}
+.imae{
+    background-size: contain;
+  background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-right: 20px;
+    background-image: url(./image/5.png);
+    margin-top: 20px;
+}
+.top{
+    padding-top: 112px;
+    padding-left: 70px;
+}
+.topp{
+    padding-left: 200px;
+}
+.clavier img{
+    height: 300px;
+    
+}
+.b{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+.you{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+.casque {
+    margin-left: 50px;
+    background: linear-gradient(to right, #1A2A80, #7A85C1);
+    padding: 10px;
+    border-radius: 15px;
+    height: 700px;
+}
+.nclavier{
+    /* margin-left: 50px; */
+     background: linear-gradient(to right,#7A85C1 , #1A2A80);
+    padding: 10px;
+    border-radius: 15px;
+   width: 500px;
+}
+.t{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+
+}
+.i img{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+}
+.i:hover{
+   transform: scale(1.15);
+    cursor: pointer;
+}
+.decouvri{
+     color: black;
+      font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+background: transparent;
+border: 2px solid black;
+border-radius: 20px;
+padding: 10px;
+cursor: pointer; 
+display: flex;
+
+justify-content: center;
+    align-items: center;
+    width: 100dvh;
+}
+.decouvri:hover{
+    color: white;
+    font-size: 20px;
+background: black;
+border: 2px solid black;
+border-radius: 20px;
+padding: 10px;
+cursor: pointer;
+}
+.dis{
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+  background:#0b1630;
+  color:white;
+  padding:50px 20px 20px;
+}
+
+.footer-container {
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:40px;
+}
+
+.footer-logo img {
+  width:40px;
+  vertical-align:middle;
+}
+.footer-logo h2 {
+  font-size:22px;
+  margin:10px 0 5px;
+}
+.footer-logo p {
+  color:#aab4ce;
+  font-size:14px;
+  line-height:1.4;
+}
+
+.footer-column h3 {
+  font-size:16px;
+  margin-bottom:14px;
+  color:#0f4fe6;
+}
+.footer-column ul {
+  list-style:none;
+  padding:0;
+}
+.footer-column ul li {
+  margin-bottom:10px;
+}
+.footer-column ul li a {
+  text-decoration:none;
+  color:#aab4ce;
+  font-size:14px;
+  transition:color .2s ease;
+}
+.footer-column ul li a:hover {
+  color:white;
+}
+
+.socials a {
+  display:inline-block;
+  margin-right:10px;
+  font-size:18px;
+  color:#aab4ce;
+  transition:color .2s ease;
+  text-decoration:none;
+}
+
+
+.footer-bottom {
+  margin-top:40px;
+  text-align:center;
+  font-size:13px;
+  color:#aab4ce;
+  border-top:1px solid rgba(255,255,255,0.1);
+  padding-top:15px;
 }
